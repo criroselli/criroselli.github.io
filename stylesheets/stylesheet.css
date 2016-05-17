@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: black;  
+  background-color: black;
   color: #eaeaea;
   font: 16px;
   line-height: 1.5;
@@ -9,11 +9,11 @@ body {
 }
 
 /* General & 'Reset' Stuff */
-
 .container {
   width: 90%;
   max-width: 600px;
   margin: 0 auto;
+  border-bottom: 1px dashed #b5e853;
 }
 
 section {
@@ -38,7 +38,6 @@ li {
 header {
   background: rgba(0, 0, 0, 0.1);
   width: 100%;
-  border-bottom: 1px dashed #b5e853;
   padding: 20px 0;
   margin: 0 0 40px 0;
 }
@@ -55,11 +54,6 @@ header h1 {
                0 0 10px rgba(181, 232, 83, 0.1);
   letter-spacing: -1px;
   -webkit-font-smoothing: antialiased;
-}
-
-header h1:before {
-  content: "./ ";
-  font-size: 24px;
 }
 
 header h2 {
@@ -124,11 +118,6 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0 0 5px 0;
 }
 
-dt {
-  font-style: italic;
-  font-weight: bold;
-}
-
 ul li {
   list-style: none;
 }
@@ -147,35 +136,6 @@ blockquote {
   color: #aaa;
   padding-left: 10px;
   border-left: 1px dotted #666;
-}
-
-pre {
-  background: rgba(0, 0, 0, 0.9);
-  border: 1px solid rgba(255, 255, 255, 0.15);
-  padding: 10px;
-  font-size: 14px;
-  color: #b5e853;
-  border-radius: 2px;
-  -moz-border-radius: 2px;
-  -webkit-border-radius: 2px;
-  text-wrap: normal;
-  overflow: auto;
-  overflow-y: hidden;
-}
-
-table {
-  width: 100%;
-  margin: 0 0 20px 0;
-}
-
-th {
-  text-align: left;
-  border-bottom: 1px dashed #b5e853;
-  padding: 5px 10px;
-}
-
-td {
-  padding: 5px 10px;
 }
 
 hr {
@@ -217,11 +177,6 @@ hr {
   float: left;
 }
 
-.btn-github .icon {
-  opacity: 0.6;
-  background: url("../images/blacktocat.png") 0 0 no-repeat;
-}
-
 /* Links
    a, a:hover, a:visited
 */
@@ -229,19 +184,4 @@ hr {
 a {
   color: #63c0f5;
   text-shadow: 0 0 5px rgba(104, 182, 255, 0.5);
-}
-
-/* Clearfix */
-
-.cf:before, .cf:after {
-  content:"";
-  display:table;
-}
-
-.cf:after {
-  clear:both;
-}
-
-.cf {
-  zoom:1;
 }
