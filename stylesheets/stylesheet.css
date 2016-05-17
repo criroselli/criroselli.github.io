@@ -2,6 +2,9 @@ body {
   margin: 0;
   padding: 0;
   background-color: black;
+  position: absolute;
+  top: 0px;
+  width: 100%;
   color: #eaeaea;
   font: 16px;
   line-height: 1.5;
