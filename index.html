@@ -16,32 +16,81 @@
   It's all open source -> https://github.com/criroselli/criroselli.github.io
 
 -->
-<html>
-  <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
-    <script src="javascripts/main.js"></script>
-    <title>🐼 Cristian Roselli</title>
-  </head>
-  <body>
-    <div id="particles-js"></div>
-    <div class="main">
-      <header>
-        <div class="container">
-          <h1>Cristian Roselli</h1>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>🐼 Cristian Roselli</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css" />
+  <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+  <link rel="stylesheet" href="./stylesheets/stylesheet.css" />
+  <script src="./javascripts/main.js"></script>
+
+</head>
+
+<bod>
+  <section class="section" id="pizza">
+    <div class="container">
+      <div class="columns is-centered">
+        <div class="column is-half">
+          <h1 class="has-text-centered header pandas" id="saluto">Ciao 👋🏻</h1>
         </div>
-      </header>
-      <div class="container">
-        <section id="main_content">
-          <h3>Welcome to GitHub Pages.</h3>
-          <p>This automatic page generator is the easiest way to create beautiful pages for all of your projects.
-             Author your page content here
-             <a href="https://guides.github.com/features/mastering-markdown/">using GitHub Flavored Markdown</a>,
-             select a template crafted by a designer, and publish.
-          </p>
-        </section>
       </div>
+      <div class="columns is-centered" style="margin: 0px;">
+        <div class="column is-one-quarter" style="padding: 0px;" >
+          <video width="100%" muted autoplay loop onclick="makeMeAngry()" id="io">
+            <source src="./assets/memoji.mp4" type="video/mp4">
+          </video>
+        </div>
+      </div>
+      <div class="columns is-centered">
+        <div class="column is-half">
+          <h2 class="has-text-centered pandas">I'm Cristian Roselli</h2>
+          <h2 class="has-text-centered">This is me in a tweet 👇🏻</h2>
+        </div>
+      </div>
+      <div class="columns is-centered">
+        <div class="column is-half">
+          <h2 class="has-text-centered">Gym Addicted 
+            <span class="clickable" id="muscle" onclick="makeItBigger()"> 💪🏻</span>
+          </h2>
+          <h2 class="has-text-centered pandas">Hip Hop Lover 🎧</h2>
+          <h2 class="has-text-centered pandas">Software engineer at <i class="fab fa-apple"></i></h2>
+          <h2 class="has-text-centered">I like Pandas 
+            <span class="clickable" id="muscle" onclick="pandaEverywhere()">🐼</span>
+          </h2>
+        </div>
+      </div>
+      <div class="columns is-centered">
+        <div class="column is-half">
+          <h2 class="has-text-centered clickable pandas" id="roma" onclick="showMytheLove()">Born in 🇮🇹</h2>
+          <h2 class="has-text-centered">Living in 🇺🇸🌴</h2>
+        </div>
+      </div>
+      <div class="columns is-centered">
+        <div class="column is-half">
+          <h1 class="has-text-centered">
+            <a href="https://www.instagram.com/cristian_roselli/" target="_blank">
+              <i class="fab fa-lg fa-instagram"></i>
+            </a>
+            <a href="https://twitter.com/Cri_Roselli" target="_blank">
+              <i class="fab fa-lg fa-twitter"></i>
+            </a>
+          </h1>
+        </div>
+      </div>
+      <div class="columns is-centered">
+        <div class="column is-one-quarter">
+          <h2 class="has-text-centered is-size-7 pandas">Hawaiian pizza is not Pizza 🍕😜</h2>
+          <div class="has-text-centered">
+            <div class="button is-small is-very-black is-size-7" onclick="makeItRain()">👍🏻</div>
+          </div>
+        </div>
+      </div>
+
     </div>
-  </body>
+  </section>
+
+
+</body>
+
 </html>
