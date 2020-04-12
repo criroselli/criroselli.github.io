@@ -33,18 +33,18 @@
   <script src="./javascripts/main.js"></script>
 </head>
 
-<bod>
+<body>
   <section class="section" id="pizza">
     <div class="container">
-      <div class="columns is-centered">
+      <div class="columns is-centered no-margin">
         <div class="column is-half">
           <h1 class="has-text-centered header pandas" id="saluto">Ciao 👋🏻</h1>
         </div>
       </div>
-      <div class="columns is-centered" style="margin: 0px;">
-        <div class="column is-one-quarter" style="padding: 0px;" >
-          <video width="100%" muted autoplay loop onclick="makeMeAngry()" id="io">
-            <source src="./assets/memoji.mp4" type="video/mp4">
+      <div class="columns is-centered no-margin">
+        <div class="column is-one-quarter no-padding">
+          <video width="100%" muted autoplay playsinline loop onclick="makeMeAngry()" id="io">
+            <source src="./assets/memojicrop.mp4" type="video/mp4">
           </video>
         </div>
       </div>
@@ -54,7 +54,7 @@
           <h2 class="has-text-centered">This is me in a tweet 👇🏻</h2>
         </div>
       </div>
-      <div class="columns is-centered">
+      <div class="columns is-centered no-margin">
         <div class="column is-half">
           <h2 class="has-text-centered">Gym Addicted 
             <span class="clickable" id="muscle" onclick="makeItBigger()"> 💪🏻</span>
@@ -66,13 +66,13 @@
           </h2>
         </div>
       </div>
-      <div class="columns is-centered">
+      <div class="columns is-centered no-margin">
         <div class="column is-half">
           <h2 class="has-text-centered clickable pandas" id="roma" onclick="showMytheLove()">Born in 🇮🇹</h2>
           <h2 class="has-text-centered">Living in 🇺🇸🌴</h2>
         </div>
       </div>
-      <div class="columns is-centered">
+      <div class="columns is-centered no-margin">
         <div class="column is-half">
           <h1 class="has-text-centered">
             <a href="https://www.instagram.com/cristian_roselli/" target="_blank">
@@ -84,7 +84,7 @@
           </h1>
         </div>
       </div>
-      <div class="columns is-centered">
+      <div class="columns is-centered no-margin">
         <div class="column is-one-quarter">
           <h2 class="has-text-centered is-size-7 pandas">Hawaiian pizza is not Pizza 🍕😜</h2>
           <div class="has-text-centered">
@@ -92,11 +92,7 @@
           </div>
         </div>
       </div>
-
     </div>
   </section>
-
-
 </body>
-
 </html>
