@@ -7,16 +7,26 @@ body {
   line-height: 1.5;
   font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
 }
+.section {
+  padding: 1rem 1.5rem;
+}
+
+.columns.is-centered.no-margin {
+  margin-bottom: 0px;
+}
+.no-padding {
+  padding: 0px;
+}
 .header{
   font-size: 30px;
   line-height: 1.5;
   font-weight: bold;
   font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
 }
-.is-very-black{
+.is-very-black {
   background-color: black;
   border:none;
 }
-.clickable{
+.clickable {
   cursor: pointer;
 }
