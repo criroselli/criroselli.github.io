@@ -7,10 +7,15 @@ body {
   line-height: 1.5;
   font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
 }
+.message-body code {
+  display: block;
+  white-space: pre-wrap;
+  background-color: black;
+  color: #08cb13;
+}
 .section {
   padding: 1rem 1.5rem;
 }
-
 .columns.is-centered.no-margin {
   margin-bottom: 0px;
 }
@@ -29,4 +34,18 @@ body {
 }
 .clickable {
   cursor: pointer;
+}
+.message-header {
+  border-radius: 0px;
+}
+.message-footer {
+  align-items: center;
+  background-color: #4a4a4a;
+  color: #fff;
+  display: flex;
+  font-weight: 700;
+  justify-content: space-between;
+  line-height: 1.25;
+  padding: .75em 1em;
+  position: relative;
 }
